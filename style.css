@@ -361,6 +361,13 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.keywords {
+    color:#cccccc;
+    font-size:1px;
+}
+.keywords footer {
+    color:#F3976C;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
