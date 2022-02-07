@@ -5,15 +5,10 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size : 15px ; 
 }
 
 .page-container {
     width : 1394px ; 
-}
-
-.text-center {
-    font-size : 15px ; 
 }
 
 a,
@@ -376,7 +371,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        left : 50%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -384,7 +379,7 @@ a:hover {
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
-    .nav-invert .site-navigation {
+    .nav-invert {
         left: 0;
         right: 0;
     }
@@ -687,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
