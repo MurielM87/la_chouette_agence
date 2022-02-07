@@ -9,7 +9,9 @@ body {
 
 .page-container {
     width : 1394px ; 
-}@media (max-width : 991px) {
+}
+
+@media (max-width : 991px) {
     .page-container {
         width : 100% ; 
     }
@@ -24,15 +26,6 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -383,13 +376,6 @@ a:hover {
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
-    .nav-invert {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
     .nav-center .navbar-header {
         width: 100%;
     }
@@ -638,7 +624,7 @@ a[data-lightbox]:hover img {
     left: 25px;
 }
 
-.snapshot-lb .modal-body {
+.snapshot-lb {
     padding-bottom: 45px;
 }
 
@@ -844,42 +830,13 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 991px) and (min-width: 767px) {
     .navbar .nav {
-        max-width: 80%
-    }
-    .nav-center.navbar .nav {
         max-width: 100%
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
 @media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
-    .b-parallax {
-        background-attachment: scroll;
-    }
-    .page-container {
-        overflow-x: hidden;
-        position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -894,10 +851,6 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .page-container {
-        overflow-x: hidden;
-        position: relative;
-    }
     h1,
     h2,
     h3,
@@ -908,9 +861,6 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
-    }
-    .b-parallax {
-        background-attachment: scroll;
     }
     .navbar .nav {
         padding-top: 0;
@@ -1029,13 +979,6 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
-    }
-}
-
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
     }
 }
 
