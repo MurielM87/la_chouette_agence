@@ -5,6 +5,11 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size : 15px ; 
+}
+
+.text-center {
+    font-size : 15px ; 
 }
 
 a,
