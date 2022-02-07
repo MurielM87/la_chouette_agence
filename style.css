@@ -9,6 +9,10 @@ body {
 
 .page-container {
     width : 1394px ; 
+}@media (max-width : 991px) {
+    .page-container {
+        width : 100% ; 
+    }
 }
 
 a,
