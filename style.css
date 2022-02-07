@@ -779,10 +779,6 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
-
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -872,8 +868,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
-    #hero-bloc {
+    .page-container {
         overflow-x: hidden;
         position: relative;
     }
