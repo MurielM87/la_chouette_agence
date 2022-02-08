@@ -706,6 +706,11 @@ p {
     font-size: 15px;
 }
 
+.agence_devise {
+    width : 60% ; 
+    height  : 80px ; 
+}
+
 .hero-bloc-text {
     font-size: 38px;
 }
