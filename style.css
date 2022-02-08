@@ -332,10 +332,9 @@ a:hover {
     line-height: 44px;
 }
 
-.navbar-brand img {
-    height: 50px;
-    margin: 0 5px 0 0;
-    display: inline;
+.header_logo {
+    width : 100% ; 
+    height : 50px ; 
 }
 
 .nav-center .navbar-brand img {
