@@ -5199,8 +5199,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
     text-decoration: none
 }
 
-.navbar-brand>img {
-    display: block
+.header_logo {
+    width : 100% ; 
+    height : 50px ; 
 }
 
 @media (min-width:768px) {
