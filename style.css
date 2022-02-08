@@ -634,7 +634,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -680,7 +679,7 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
+h1 {
     font-size: 20px;
     font-family: "Open Sans";
 }
@@ -718,7 +717,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #F3976C!important;
 }
 
 h4 {
