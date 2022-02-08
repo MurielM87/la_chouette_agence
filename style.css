@@ -666,6 +666,7 @@ a[data-lightbox]:hover img {
 }
 
 h2,
+h3
 h5,
 h6,
 p,
@@ -674,7 +675,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #2b2a2a!important;
 }
 
 h1 {
@@ -690,10 +691,7 @@ h2 {
 
 h3 {
     font-size: 15px;
-    font-family: "helvetica";
-    font-weight: 400;
     text-transform: uppercase;
-    color: #FFFFFF!important;
 }
 
 h4 {
