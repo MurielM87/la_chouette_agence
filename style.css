@@ -24,13 +24,9 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1394px;
 }
 
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
-}
 
 @media (max-width: 991px) {
     .bloc {
