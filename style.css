@@ -328,16 +328,7 @@ a:hover {
     margin: 0;
 }
 
-.navbar .nav {
-    padding-top: 2px;
-    margin-right: -16px;
-    float: right;
-    z-index: 1;
-}
-
 .nav > li {
-    float: left;
-    margin-top: 4px;
     font-size: 16px;
 }
 
@@ -364,10 +355,6 @@ a:hover {
     width: 26px;
 }
 
-.nav-invert .navbar .nav {
-    float: left;
-}
-
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
@@ -379,9 +366,7 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        left : 80%;
-        -webkit-transform: translateY(-50%);
+        left : 70%;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -399,7 +384,6 @@ a:hover {
     .nav-center .site-navigation {
         position: relative;
         width: 100%;
-        right: 0;
         margin-right: 0px;
         margin-top: 20px;
     }
@@ -697,6 +681,16 @@ q,
     font-weight: 700;
 }
 
+.text_explication {
+    font-size: 17px;
+}
+
+.text_bloc5 {
+    color: #FFF;
+    font-weight: 700;
+    line-height: 25px;
+}
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -859,18 +853,12 @@ q,
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
     }
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
     }
-    .site-navigation {
-        position: inherit;
-        transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
-    }
+    
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
