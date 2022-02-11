@@ -25,21 +25,6 @@ body {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .bloc.full-width-bloc,
-    .bloc-tile-2.full-width-bloc .container,
-    .bloc-tile-3.full-width-bloc .container,
-    .bloc-tile-4.full-width-bloc .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-.bloc-tile-2 .container,
-.bloc-tile-3 .container,
-.bloc-tile-4 .container,
-.bloc-fill-screen .fill-bloc-top-edge,
-.bloc-fill-screen .fill-bloc-bottom-edge {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 a,
@@ -58,10 +43,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     position: relative;
 }
 
@@ -81,19 +62,7 @@ a:hover {
     width : 15% ; 
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
+.bg-t-edge {
     background-size: auto!important;
 }
 
@@ -117,7 +86,6 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -132,19 +100,6 @@ a:hover {
     color: rgba(255, 255, 255, .9);
 }
 
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
-}
-
-.d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
-}
-
-.d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
@@ -242,8 +197,6 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
@@ -299,15 +252,10 @@ a:hover {
     margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row.row-no-gutters,
+.row.row-no-gutters {
     padding-right: 0;
     padding-left: 0;
-}
-
-.navbar {
-    margin-bottom: 0;
-    z-index: 1;
 }
 
 .navbar-brand {
@@ -315,12 +263,10 @@ a:hover {
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
-    font-weight: 600;
     line-height: 44px;
 }
 
 .header_logo {
-    width : 100% ; 
     height : 50px ; 
 }
 
@@ -365,8 +311,10 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
-        position: absolute;
-        left : 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        list-style-type: none;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -493,6 +441,16 @@ button {
 
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
+}
+
+#form_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group {
+    margin-bottom: 15px;
 }
 
 .form-control {
@@ -775,10 +733,18 @@ q,
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000000!important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
+}
+
+.lieu {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .ltc-white {
@@ -845,8 +811,7 @@ q,
     h4,
     h5,
     h6,
-    p,
-    #disqus_thread {
+    p {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
@@ -858,18 +823,6 @@ q,
         margin-left: 0;
         margin-right: 0;
     }
-    
-    .nav > li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
-        width: 100%;
-    }
-    .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
-    }
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
@@ -878,24 +831,8 @@ q,
         border-right-color: transparent;
         border-left-color: transparent;
     }
-    #hero-bloc .navbar .nav {
-        background: rgba(0, 0, 0, .8);
-    }
-    #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
-    }
-    .hero {
-        padding: 50px 0;
-    }
-    .hero-nav {
-        left: -1px;
-        right: -1px;
-    }
     .navbar-collapse {
         padding: 0;
-        overflow-x: hidden;
-        -webkit-box-shadow: none;
-        box-shadow: none;
     }
     .navbar-brand img {
         max-height: 40px;
