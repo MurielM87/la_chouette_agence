@@ -427,6 +427,12 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #form_1 {
     display: flex;
     flex-direction: column;
