@@ -59,7 +59,7 @@ a:hover {
 }
 
 .center-block {
-    width : 15% ; 
+    width: 15%; 
 }
 
 .bg-t-edge {
@@ -76,8 +76,7 @@ a:hover {
 
 .bloc-bg-texture::before {
     content: "";
-    background-size: 2px 2px;
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -247,6 +246,10 @@ a:hover {
     margin-top: 80px;
 }
 
+.text_footer {
+    padding-bottom: 25px;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -296,13 +299,9 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        position: relative;
+        top: 25%;
+        left: 60%;
     }
     .nav-center .navbar-header {
         width: 100%;
@@ -394,7 +393,7 @@ button {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15)
 }
 
 .icon-md {
@@ -505,7 +504,7 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog {
     width: 90%;
-    max-width: 900px;
+    width: 900px;
     margin: 0 auto 0;
 }
 
@@ -645,12 +644,12 @@ q,
     font-size: 20px;
     text-align: center;
     font-weight: lighter;
-    max-width: 520px;
+    width: 520px;
     margin: auto auto auto auto;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -662,6 +661,17 @@ q,
     font-size: 16px;
     font-weight: 700;
 }
+.cta-hero1 {
+    margin-top: 22px;
+    color: #FFFFFF!important;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 47%;
+}
+
 
 .social {
     margin: auto ;
@@ -741,10 +751,16 @@ q,
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    width: 100%;
+    height: 420px;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+#bloc-5-cta {
+    height: 150px;
 }
 
 @media (max-width: 991px) and (min-width: 767px) {
