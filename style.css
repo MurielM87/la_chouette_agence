@@ -714,8 +714,6 @@ q,
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000000!important;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .btn-atomic-tangerine:hover {
@@ -724,7 +722,7 @@ q,
 
 .lieu {
     font-size: 17px;
-    text-align: center;
+    text-align: left;
     margin-top: 10px;
 }
 
