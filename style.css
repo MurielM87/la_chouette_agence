@@ -509,7 +509,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    height: 90vh;
     margin: 0 auto;
 }
 
@@ -652,6 +652,11 @@ q,
     width: 600px;
     margin: auto auto auto auto;
 }
+@media (max-width: 767px) {
+    .tight-width-whitespace {
+        width: 90%;
+    }
+}
 
 .cta-hero {
     margin-top: 22px;
@@ -670,6 +675,11 @@ q,
     font-weight: 700;
     position: absolute;
     left: 47%;
+}
+@media (max-width: 767px) {
+    .cta-hero1 {
+        left: 35%;
+    }
 }
 
 
@@ -752,7 +762,6 @@ q,
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
     width: 100%;
-    height: 420px;
 }
 
 .bg-presentation {
@@ -807,7 +816,7 @@ q,
         padding: 0;
     }
     .navbar-brand img {
-        max-height: 40px;
+        height: 40px;
         width: auto;
     }
     .nav-invert .navbar-header {
