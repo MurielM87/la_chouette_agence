@@ -316,10 +316,6 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -674,15 +670,12 @@ a {
     color: #2b2a2a!important;
 }
 
-h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-    color: #F3976C!important;
-}
-
+h1,
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+    font-size: 32px;
+    font-family: "Open Sans";
+    color: #FFF!important;
+    text-align: center;
 }
 
 h3 {
@@ -699,13 +692,9 @@ h4 {
 p {
     font-size: 15px;
 }
-
-.hero-bloc-text {
-    font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-    font-size: 36px;
+span {
+    color: #000;
+    font-size: 15px;
 }
 
 .statement-bloc-text {
