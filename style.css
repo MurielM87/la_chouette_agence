@@ -133,7 +133,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #000;
 }
 
 .d-bloc button:hover {
@@ -226,8 +226,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
+.d-bloc .panel {
     color: rgba(0, 0, 0, .5);
 }
 
@@ -257,8 +256,6 @@ a:hover {
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
 .l-bloc h3 a,
 .l-bloc h4 a,
 .l-bloc h5 a,
@@ -657,7 +654,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h2,
 h3
 h5,
 h6,
@@ -667,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #2b2a2a!important;
+    color: #000000!important;
 }
 
 h1,
@@ -692,9 +688,9 @@ h4 {
 p {
     font-size: 15px;
 }
-span {
+.titre_container {
     color: #000;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .statement-bloc-text {
