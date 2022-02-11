@@ -159,7 +159,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, 0.6);
+    color: #FFF;
 }
 
 .d-bloc .a-btn:hover,
@@ -711,8 +711,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto ;
 }
 
 .med-width-whitespace {
