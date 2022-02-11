@@ -1986,19 +1986,13 @@ pre code {
 
 @media (min-width:768px) {
     .container {
-        width: 750px
+    width: 100%
     }
 }
 
 @media (min-width:992px) {
     .container {
-        width: 970px
-    }
-}
-
-@media (min-width:1200px) {
-    .container {
-        width: 1170px
+        width: 100%
     }
 }
 
@@ -7677,7 +7671,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px

@@ -10,14 +10,13 @@ body {
     background: #FFF;
 }
 
-@media (max-width : 991px) {
-    .page-container {
-        width : 100% ; 
-    }
-}
-
 .container {
-    max-width: 1394px;
+    width: 1394px;
+}
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
 }
 
 
@@ -381,8 +380,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        left : 50%;
-        transform: translate(0, -50%);
+        left : 80%;
         -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
@@ -683,7 +681,20 @@ p {
 }
 .titre_container {
     color: #000;
+    font-size: 25px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+q,
+.quote {
+    font-size: 25px ;
+}
+
+.presentation {
     font-size: 20px;
+    font-weight: 700;
 }
 
 .statement-bloc-text {
@@ -715,7 +726,6 @@ p {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
