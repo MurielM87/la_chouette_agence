@@ -714,10 +714,6 @@ q,
     margin-top: 50px;
 }
 
-.avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
-}
-
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
