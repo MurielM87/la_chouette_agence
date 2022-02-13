@@ -60,6 +60,7 @@ a:hover {
 
 .center-block {
     width: 15%; 
+    height: 90px;
 }
 
 .bg-t-edge {
@@ -262,7 +263,8 @@ a:hover {
 }
 
 .header_logo {
-    height : 50px ; 
+    height: 50px; 
+    width: 270px;
 }
 
 .nav > li {
