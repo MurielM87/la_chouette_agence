@@ -85,7 +85,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper-min.png");
 }
 
 .b-parallax {
@@ -750,20 +750,20 @@ q,
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg-min.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg-min.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-min.jpg");
     width: 100%;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation-min.png");
 }
 
 #bloc-5-cta {
