@@ -750,7 +750,7 @@ q,
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg-min.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
@@ -758,12 +758,12 @@ q,
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere-min.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
     width: 100%;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-min.png");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 #bloc-5-cta {
