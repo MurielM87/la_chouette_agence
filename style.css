@@ -59,8 +59,8 @@ a:hover {
 }
 
 .center-block {
-    width: 15%; 
-    height: 80px;
+    width: 120px; 
+    height: 120px;
 }
 
 .bg-t-edge {
@@ -522,7 +522,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: -20px;
 }
 
 .close-lightbox {
