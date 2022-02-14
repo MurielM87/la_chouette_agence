@@ -272,7 +272,6 @@ a:hover {
     padding-right: 20px;
 }
 
-.nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
 }
@@ -377,7 +376,6 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover,
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
