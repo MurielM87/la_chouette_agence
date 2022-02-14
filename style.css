@@ -85,7 +85,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper-min.png");
+    background: url("img/texture-paper.webp");
 }
 
 .b-parallax {
@@ -754,7 +754,7 @@ q,
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg-min.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
