@@ -625,7 +625,8 @@ p {
 
 q,
 .quote {
-    font-size: 25px ;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .citation {
