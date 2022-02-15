@@ -1506,6 +1506,10 @@ hr {
     text-align: justify
 }
 
+.text-start {
+    text-align: start
+}
+
 .text-nowrap {
     white-space: nowrap
 }
