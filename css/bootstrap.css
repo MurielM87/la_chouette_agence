@@ -1905,6 +1905,7 @@ pre code {
     padding-left: 15px
 }
 
+
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
@@ -3049,10 +3050,6 @@ input[type=search] {
     input[type=month].input-lg {
         line-height: 46px
     }
-}
-
-.form-group {
-    margin-bottom: 15px
 }
 
 .checkbox,

@@ -210,7 +210,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(12, 12, 12, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -228,7 +228,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(12, 12, 12, 0.6);
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -442,10 +442,6 @@ button {
     align-items: flex-start;
 }
 
-.form-group {
-    margin-bottom: 15px;
-}
-
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -598,7 +594,13 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000!important;
+    color: rgba(12, 12, 12, 0.6)!important;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
 
 h1,
