@@ -42,6 +42,9 @@
 							<img src="img/la-chouette-agence.webp"
 								alt="Logo de la Chouette Agence, entreprise de web-design, Lyon" class="header_logo" />
 						</a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
@@ -75,19 +78,19 @@
 					<div class="col-sm-6">
 						<form id="form_1">
 							<div class="form-group">
-								<label>Nom<input id="name" class="form-control" required /></label>
+								<label>Nom<input id="name" class="form-control" required aria-label="formulaire nom" /></label>
 							</div>
 							<div class="form-group">
-								<label>Adresse email<input type="email" id="email" class="form-control"
+								<label>Adresse email<input type="email" id="email" class="form-control" aria-label="formulaire email"
 										required /></label>
 							</div>
 							<div class="form-group">
-								<label>Comment nous avez-vous connu ?<input class="form-control" /></label>
+								<label>Comment nous avez-vous connu ?<input class="form-control"  aria-label="formulaire communication"/></label>
 							</div>
 							<div class="form-group">
 								<label>
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)
-									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+									<textarea id="message" class="form-control" rows="4" cols="50" required aria-label="formulaire message"></textarea>
 								</label>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"

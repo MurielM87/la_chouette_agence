@@ -30,7 +30,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -210,7 +209,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(12, 12, 12, 0.6);
+    color:rgba(0, 0, 0, 0.6)!important;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -383,10 +382,6 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none!important;
 }
 
 .btn-rd {
@@ -594,7 +589,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: rgba(12, 12, 12, 0.6)!important;
+    color: rgba(0, 0, 0, 0.6)!important;
 }
 
 label {
@@ -606,7 +601,8 @@ label {
 h1,
 h2 {
     font-size: 32px;
-    font-family: "Open Sans";
+    font-family: "helvetica";
+    font-weight: 400;
     color: #FFF!important;
     text-align: center;
 }
@@ -637,6 +633,10 @@ q,
 .quote {
     font-size: 20px;
     margin-left: 10px;
+}
+
+q {
+    font-style: italic;
 }
 
 .citation {
