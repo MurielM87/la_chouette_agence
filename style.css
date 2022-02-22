@@ -11,12 +11,7 @@ body {
 }
 
 .container {
-    width: 1394px;
-}
-@media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
+    width: 100%;
 }
 
 
@@ -55,7 +50,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 100px 0px;
 }
 
 .bloc-md {
@@ -63,7 +58,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 
 .bg-t-edge {
